@@ -1,0 +1,53 @@
+.parent-container {
+  margin-top: 65px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.weather-desc {
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.weather-desc:hover {
+  background-color: #ffffff36;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #323232;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: #323232;
+}
+
+.forecast-icon {
+  width: 50px;
+  height: 50px;
+  margin: 10px 0;
+  filter: brightness(450%);
+}
+
+.min-max-temp {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  color: #323232;
+}
+
+.max-temp {
+  font-size: 30px;
+  margin-right: 5px;
+}
